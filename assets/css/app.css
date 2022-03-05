@@ -17,14 +17,21 @@
   font-weight: bold;
 }
 
-footer p {
-  margin-top: 50px;
-  font-size: 14px;
-  color: #01325f;
+.footer {
+  background-color: black;
+  height: 50px;
+  width: auto;
+  margin-top: 25%;
+  position: relative;
 }
-
-footer p:hover {
-  color: white;
+.footer,
+text {
+  position: relative;
+  text-align: center;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  padding-top: 15px;
 }
 
 /* NAV-BAR HOVER */
@@ -49,14 +56,17 @@ footer p:hover {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: #fafafa;
-  margin-top: 20px;
+  background: #2d83f5;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .wrapper-service h1 {
   font-size: 3em;
   margin: 25px 0;
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 500;
+  color: white;
 }
 .content-box {
   display: flex;
@@ -64,6 +74,7 @@ footer p:hover {
   flex-wrap: wrap;
   width: 1000px;
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 .card {
   min-height: 220px;
@@ -72,6 +83,95 @@ footer p:hover {
   border-radius: 5px;
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #fff;
+  margin: 10px 4px;
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
 }
 
-/*# sourceMappingURL=app.css.map */
+.card i {
+  margin: 20px;
+  color: tomato;
+}
+.card h2 {
+  margin-bottom: 12px;
+  font-weight: 400;
+  font-family: center;
+}
+.card p {
+  color: #6c757d;
+  text-align: center;
+}
+.card:hover i,
+.card:hover p {
+  color: #fff;
+}
+.card:hover h2 {
+  font-weight: 600;
+}
+.card:nth-child(1):hover {
+  background: linear-gradient(
+      45deg,
+      rgba(255, 28, 8, 0.8) 0%,
+      rgba(237, 105, 35, 0.8) 100%
+    ),
+    url("https://www.google.com/search?q=computer&rlz=1C1UEAD_enID976ID976&sxsrf=APq-WBsfdRLQdfxZ5bilXwv3KTBiA6FydA:1646469374703&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiYu9mxyK72AhXxX3wKHT3mAdkQ_AUoAnoECAMQBA&biw=1517&bih=685&dpr=0.9#imgrc=1RIIUxZVXyOVNM");
+  background-size: cover;
+}
+.card:nth-child(2):hover {
+  background: linear-gradient(
+      45deg,
+      rgba(255, 28, 8, 0.8) 0%,
+      rgba(237, 105, 35, 0.8) 100%
+    ),
+    url("assets/bg.jpg");
+  background-size: cover;
+}
+.card:nth-child(3):hover {
+  background: linear-gradient(
+      45deg,
+      rgba(255, 28, 8, 0.8) 0%,
+      rgba(237, 105, 35, 0.8) 100%
+    ),
+    url("assets/bg.jpg");
+  background-size: cover;
+}
+.card:nth-child(5):hover {
+  background: linear-gradient(
+      45deg,
+      rgba(255, 28, 8, 0.8) 0%,
+      rgba(237, 105, 35, 0.8) 100%
+    ),
+    url("assets/bg.jpg");
+  background-size: cover;
+}
+.card:nth-child(4):hover {
+  background: linear-gradient(
+      45deg,
+      rgba(255, 28, 8, 0.8) 0%,
+      rgba(237, 105, 35, 0.8) 100%
+    ),
+    url("assets/bg.jpg");
+  background-size: cover;
+}
+.card:nth-child(5):hover {
+  background: linear-gradient(
+      45deg,
+      rgba(255, 28, 8, 0.8) 0%,
+      rgba(237, 105, 35, 0.8) 100%
+    ),
+    url("assets/bg.jpg");
+  background-size: cover;
+}
+.card:nth-child(6):hover {
+  background: linear-gradient(
+      45deg,
+      rgba(255, 28, 8, 0.8) 0%,
+      rgba(237, 105, 35, 0.8) 100%
+    ),
+    url("assets/bg.jpg");
+  background-size: cover;
+}
+
+/*# sourceMappinURL=app.css.map */
